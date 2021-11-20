@@ -209,7 +209,7 @@ Blockly.Blocks['HUSKYLENS_saveScreenshot'] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour("#3dc45c");
- this.setTooltip("read Current from PZEM004T sensor");
+ this.setTooltip("");
  this.setHelpUrl("");
   }
 };
@@ -230,7 +230,7 @@ Blockly.Blocks['HUSKYLENS_customText'] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour("#3dc45c");
- this.setTooltip("read Current from PZEM004T sensor");
+ this.setTooltip("");
  this.setHelpUrl("");
   }
 };
@@ -248,7 +248,7 @@ Blockly.Blocks['HUSKYLENS_setCustomName'] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour("#3dc45c");
- this.setTooltip("read Current from PZEM004T sensor");
+ this.setTooltip("");
  this.setHelpUrl("");
   }
 };
