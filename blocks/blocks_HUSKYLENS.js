@@ -95,7 +95,7 @@ Blockly.Blocks['HUSKYLENS_getData_BLOCK'] = {
     this.appendDummyInput()
         .appendField(new Blockly.FieldVariable("HUSKYLENS_1",null,["Plugin.HUSKYLENS_ESP"],["Plugin.HUSKYLENS_ESP"]), "instance")
         .appendField("Get block type")
-        .appendField(new Blockly.FieldDropdown([["x Center","xCenter"], ["y Center","yCenter"], ["Width","width"], ["Height","height"], ["ID","id"]]), "Block_type");
+        .appendField(new Blockly.FieldDropdown([["x Center","xCenter"], ["y Center","yCenter"], ["Width","width"], ["Height","height"], ["ID","ID"]]), "Block_type");
     this.setInputsInline(true);
     this.setOutput(true, ["int", "Number"]);
     this.setColour("#3dc45c");
@@ -108,7 +108,7 @@ Blockly.Blocks['HUSKYLENS_getData_ARROW'] = {
     this.appendDummyInput()
         .appendField(new Blockly.FieldVariable("HUSKYLENS_1",null,["Plugin.HUSKYLENS_ESP"],["Plugin.HUSKYLENS_ESP"]), "instance")
         .appendField("Get arrow type ")
-        .appendField(new Blockly.FieldDropdown([["X Origin","xOrigin"], ["Y Origin","yOrigin"], ["X Target","xTarget"], ["Y Target","yTarget"], ["ID","id"]]), "Block_type");
+        .appendField(new Blockly.FieldDropdown([["X Origin","xOrigin"], ["Y Origin","yOrigin"], ["X Target","xTarget"], ["Y Target","yTarget"], ["ID","ID"]]), "Block_type");
     this.setInputsInline(true);
     this.setOutput(true, ["int", "Number"]);
     this.setColour("#3dc45c");
